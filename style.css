@@ -68,6 +68,7 @@ header {
     justify-content: space-between;
     max-width: 960px;
     margin-left: 0;
+    max-width: 480;
   }
   
   .meat img {
@@ -80,6 +81,8 @@ header {
     max-width: 480px;
     margin-right: 30px;
     width: 50%;
+    overflow: hidden;
+    
   }
   
   .img-wrapper img {
@@ -127,8 +130,15 @@ header {
     margin-top: 
   }
 
-  footer img {
+  footer {
+    margin: 0;
+    max-height: 220px;
+  }
+  
+  footer .img {
     height: 220px;
     width: 960px;
-    margin-top: 30px;
+    margin: 0;
+    /* margin-top: 30px; */
   }
+
